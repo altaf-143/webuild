@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .s1 {
+            padding-top: 10px;
+            height: 100px;
+            width: 300px;
+            border: 1px solid black;
+            border-radius: 30px;
+            font-size: 20px;
+            background-color: aqua;
+            position: relative;
+            animation-name: animate;
+            animation-duration: 8s;
+            animation-iteration-count: infinite;
+        }
+        
+        @keyframes animate {
+            0% {
+                background-color: aqua;
+                left: 0;
+                top: 0;
+            }
+            25% {
+                background-color: blueviolet;
+                left: 900px;
+                top: 0;
+            }
+            50% {
+                background-color: aqua;
+                left: 900px;
+                top: 0;
+            }
+            75% {
+                background-color: bisque;
+                left: 900px;
+                top: 0;
+            }
+            100% {
+                background-color: orange;
+                left: 900px;
+                top: 0;
+            }
+            from {
+                height: 80px;
+                width: 300px;
+            }
+            to {
+                height: 80px;
+                width: 300px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h5 class="s1" style="font-size: 30px;">We Provide The Best Construction Services</h5>
+    </div>
+
+</body>
+
+</html>
